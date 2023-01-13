@@ -135,7 +135,7 @@ function operadoresLogicos(num1, num2, num3) {
    }
    // Si num1 es mayor a num2 y num3 y además es positivo, retornar ---> "Número 1 es mayor y positivo"
    if(num1 > 0 && num1 > num2 && num1 > num3) {
-       return "Número 1 es mayor y positivo";
+       return "Numero 1 es mayor y positivo";
    }
    // Si alguno de los tres números es negativo, retornar ---> "Hay negativos"
    if(num1 < 0 || num2 < 0 || num3 < 0) {
